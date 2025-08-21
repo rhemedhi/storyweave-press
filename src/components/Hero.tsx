@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/princessgrace.jpg";
+// import heroImage from "@/assets/princessgrace.jpg";
 // import heroImage from "@/assets/princess-grace-hero.png";
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-fill bg-center bg-no-repeat"
         // className="absolute inset-0 bg-contain bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        style={{ backgroundImage: `url(/princessgrace.jpg)` }}
       />
       <div className="absolute inset-0 bg-primary/60" />
       
