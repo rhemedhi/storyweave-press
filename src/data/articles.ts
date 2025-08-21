@@ -18,9 +18,12 @@ export const articles: Article[] = [
     excerpt: "Over the past few weeks, residents of Franco Estate, a growing community in Pokuase, have been grappling with a frustrating challenge — irregular water supply. Once a peaceful and convenient estate with reliable utilities, the community is now forced to adjust to a water supply pattern that leaves homes dry for days.",
     author: "Princess Grace Asare",
     publishDate: "July 7, 2025",
-    readTime: "6 min read",
+    readTime: "4 min read",
     category: "Observation and Interview",
-    content: `At 6:30 AM on a Monday morning, many residents were spotted at the estate's central tap, lined up with yellow gallons, buckets, and bowls. Some children skipped school to help their parents fetch water. The taps in individual homes had gone dry the night before.
+    content: `
+    Observation
+
+At 6:30 AM on a Monday morning, many residents were spotted at the estate's central tap, lined up with yellow gallons, buckets, and bowls. Some children skipped school to help their parents fetch water. The taps in individual homes had gone dry the night before.
 
 A middle-aged woman, visibly tired and wearing a house dress and scarf, sighed as she waited in line. "We don't sleep well anymore," she said. "If you don't wake up at dawn, you won't get water at all."
 

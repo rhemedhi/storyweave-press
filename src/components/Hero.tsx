@@ -1,11 +1,13 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/princess-grace-hero.png";
+import heroImage from "@/assets/princessgrace.jpg";
+// import heroImage from "@/assets/princess-grace-hero.png";
 
 const Hero = () => {
   return (
     <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-fill bg-center bg-no-repeat"
+        // className="absolute inset-0 bg-contain bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
       <div className="absolute inset-0 bg-primary/60" />
