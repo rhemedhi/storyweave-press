@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-8">
             <h1 className="text-2xl font-serif font-bold text-primary">
-              The Journal
+              Princess Grace's Blog
             </h1>
             <nav className="hidden md:flex space-x-6">
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">

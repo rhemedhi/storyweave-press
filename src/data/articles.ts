@@ -14,66 +14,46 @@ export interface Article {
 export const articles: Article[] = [
   {
     id: "1",
-    title: "The Future of Climate Reporting: Technology Meets Environmental Journalism",
-    excerpt: "How modern journalism is adapting to cover the most pressing issue of our time, using data visualization and on-ground reporting to tell compelling climate stories.",
-    author: "Sarah Mitchell",
-    publishDate: "Dec 15, 2024",
-    readTime: "8 min read",
-    category: "Environment",
-    featured: true,
-    content: `The landscape of climate reporting has transformed dramatically over the past decade. As environmental challenges become increasingly complex, journalists are turning to innovative storytelling methods to engage audiences and convey the urgency of climate action.
-
-Data visualization has emerged as a powerful tool in the climate journalist's arsenal. Interactive maps showing rising sea levels, temperature anomalies, and deforestation patterns help readers understand abstract concepts through concrete visual representation.
-
-On-ground reporting remains equally crucial. From the melting glaciers of Greenland to the coral bleaching events in the Great Barrier Reef, journalists are documenting climate change impacts firsthand, bringing distant consequences into sharp focus for global audiences.
-
-The challenge lies in balancing scientific accuracy with compelling narrative. Climate journalists must navigate complex research papers, translate scientific jargon into accessible language, and maintain objectivity while conveying the urgency of environmental issues.
-
-Looking ahead, the integration of virtual reality, drone footage, and real-time environmental monitoring promises to further revolutionize how we tell climate stories. The future of environmental journalism is not just about reporting the news—it's about helping society understand and respond to the defining challenge of our time.`
-  },
-  {
-    id: "2",
-    title: "Investigative Journalism in the Digital Age: Tools and Techniques",
-    excerpt: "Modern investigative reporters are leveraging technology and data analysis to uncover stories that matter, from government transparency to corporate accountability.",
-    author: "Michael Chen",
-    publishDate: "Dec 12, 2024",
+    title: "Water Crisis Hits Franco Estate, Pokuase",
+    excerpt: "Over the past few weeks, residents of Franco Estate, a growing community in Pokuase, have been grappling with a frustrating challenge — irregular water supply. Once a peaceful and convenient estate with reliable utilities, the community is now forced to adjust to a water supply pattern that leaves homes dry for days.",
+    author: "Princess Grace Asare",
+    publishDate: "July 7, 2025",
     readTime: "6 min read",
-    category: "Investigation"
-  },
-  {
-    id: "3",
-    title: "The Economics of Local Newsrooms: Sustainability Strategies That Work",
-    excerpt: "As traditional revenue models struggle, successful local news outlets are finding innovative ways to serve their communities while maintaining financial viability.",
-    author: "Emily Rodriguez",
-    publishDate: "Dec 10, 2024",
-    readTime: "5 min read",
-    category: "Media Business"
-  },
-  {
-    id: "4",
-    title: "Covering Democracy: Election Reporting in Polarized Times",
-    excerpt: "The challenges and responsibilities of political journalism when democratic institutions face unprecedented pressure and public trust in media reaches historic lows.",
-    author: "David Thompson",
-    publishDate: "Dec 8, 2024",
-    readTime: "7 min read",
-    category: "Politics"
-  },
-  {
-    id: "5",
-    title: "Ethics in AI-Assisted Journalism: Navigating New Frontiers",
-    excerpt: "As artificial intelligence becomes more prevalent in newsrooms, journalists must grapple with questions of accuracy, bias, and the human element in storytelling.",
-    author: "Lisa Park",
-    publishDate: "Dec 5, 2024",
-    readTime: "4 min read",
-    category: "Technology"
-  },
-  {
-    id: "6",
-    title: "International Correspondence: Reporting from Conflict Zones",
-    excerpt: "The personal and professional challenges of covering international conflicts, from safety concerns to cultural sensitivity and accurate representation.",
-    author: "Ahmed Hassan",
-    publishDate: "Dec 3, 2024",
-    readTime: "9 min read",
-    category: "International"
+    category: "Observation and Interview",
+    content: `Over the past few weeks, residents of Franco Estate, a growing community in Pokuase, have been grappling with a frustrating challenge — irregular water supply. Once a peaceful and convenient estate with reliable utilities, the community is now forced to adjust to a water supply pattern that leaves homes dry for days.
+
+## Observation
+
+At 6:30 AM on a Monday morning, many residents were spotted at the estate's central tap, lined up with yellow gallons, buckets, and bowls. Some children skipped school to help their parents fetch water. The taps in individual homes had gone dry the night before.
+
+A middle-aged woman, visibly tired and wearing a house dress and scarf, sighed as she waited in line. "We don't sleep well anymore," she said. "If you don't wake up at dawn, you won't get water at all."
+
+## Interview with Residents
+
+To understand the issue better, I spoke to a few residents in the area.
+
+Mrs. Ama Boateng, a hairdresser who has lived in Franco Estate for five years, expressed her frustration:
+"Water used to flow regularly here, but now it's on and off. Sometimes it doesn't come for three days. We buy from private water tankers, and it's expensive. I pay GHC 15 for just a barrel."
+
+Kwabena Ntiamoah, a Level 200 student of UPSA who lives with his aunt, added:
+"It's affecting our hygiene. Even to flush the toilet, you have to plan. And imagine preparing for school without water to bathe."
+
+## Source of the Problem
+
+According to some residents, the issue began in late April when a nearby construction project reportedly disrupted underground pipelines. Efforts to fix the problem have been slow, and the estate is now relying on a limited water supply schedule.
+
+The estate management released a brief notice last week:
+"We are in touch with the Ghana Water Company and working on restoring full access. Kindly bear with us as repairs are ongoing."
+
+## Coping Mechanisms
+
+Residents have adopted new routines. Many now wake up as early as 4:00 AM to fetch water before it runs out. Others have dug shallow wells, and a few fortunate homes have installed water tanks.
+
+A young boy, Emmanuel, around 10 years old, said:
+"I help my mother carry water from the other side. Sometimes, we walk 20 minutes. It's tiring."
+
+## Conclusion
+
+The water shortage has revealed not just infrastructure issues, but also the resilience of the community. However, many believe this shouldn't be a long-term reality for an estate in Accra's rapidly developing Pokuase area. Residents are calling on the Ghana Water Company and local authorities to address the situation urgently before it escalates into a health crisis.`
   }
 ];

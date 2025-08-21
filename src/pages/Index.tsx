@@ -4,8 +4,6 @@ import ArticleCard from "@/components/ArticleCard";
 import { articles } from "@/data/articles";
 
 const Index = () => {
-  const featuredArticle = articles.find(article => article.featured);
-  const regularArticles = articles.filter(article => !article.featured);
 
   return (
     <div className="min-h-screen bg-background">
@@ -13,18 +11,6 @@ const Index = () => {
       <Hero />
       
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <section className="mb-16">
-          <div className="flex items-center justify-between mb-8">
-            <h2 className="text-3xl font-serif font-bold text-primary">Featured Story</h2>
-          </div>
-          
-          {featuredArticle && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <ArticleCard {...featuredArticle} />
-            </div>
-          )}
-        </section>
-
         <section>
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-3xl font-serif font-bold text-primary">Latest Articles</h2>
@@ -32,7 +18,7 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {regularArticles.map((article) => (
+            {articles.map((article) => (
               <ArticleCard key={article.id} {...article} />
             ))}
           </div>
