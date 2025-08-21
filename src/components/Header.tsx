@@ -11,20 +11,6 @@ const Header = () => {
             <h1 className="text-2xl font-serif font-bold text-primary">
               Princess Grace's Blog
             </h1>
-            <nav className="hidden md:flex space-x-6">
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                Politics
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                Business
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                Culture
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                Opinion
-              </a>
-            </nav>
           </div>
           
           <div className="flex items-center space-x-4">

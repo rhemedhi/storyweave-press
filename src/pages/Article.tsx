@@ -93,8 +93,7 @@ const Article = () => {
               <div>
                 <h4 className="font-semibold text-primary">{article.author}</h4>
                 <p className="text-muted-foreground">
-                  {article.author} is a professional journalist specializing in {article.category.toLowerCase()}.
-                  With years of experience in investigative reporting and storytelling.
+                  Princess Grace Asare is a student journalist acquiring knowledge in observation and interview.
                 </p>
               </div>
             </div>
